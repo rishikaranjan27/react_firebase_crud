@@ -1,0 +1,147 @@
+.right {
+
+    height: 90vh;
+
+}
+
+
+.rightHeader {
+    position: relative;
+    display: inline-block;
+}
+  
+
+.filterComponent {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #e3e3e3;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    padding: 12px 16px;
+    z-index: 1;
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.filter-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.filter-date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.filter-date h5 {
+    margin-right: 10px;
+}
+
+.filter-date-input {
+    width: 50%;
+    border: none;
+    outline: none;
+    height: 25px;
+    padding: 0 5px;
+}
+
+
+
+.filter-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.blue-btn {
+    background-color: #00B8F1;
+    border: none;
+    color: white;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.4);
+    outline: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 25px;
+    font-weight: 500;
+}
+
+
+.blue-btn:hover {
+    background-color: #02afe4;
+}
+
+
+.white-btn {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(58, 58, 58);
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.4);
+    outline: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 25px;
+    font-weight: 500;
+}
+
+.white-btn:hover {
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+.right {
+    border: 5px solid #D9D9D9;
+    max-height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    position: relative;
+
+}
+
+.rightHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+
+.rightBody {
+    background-color: #D9D9D9;
+    margin: 10px;
+    padding: 1px 10px;
+    
+}
+
+.rightBody:hover {
+    background-color: #7F7F7F;
+    color: white;
+
+}
+
+
+.rightBody-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightBody-date {
+    display: flex;
+}

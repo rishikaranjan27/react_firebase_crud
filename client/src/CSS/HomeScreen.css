@@ -1,0 +1,20 @@
+.homeScreen {
+    max-height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.home-sidebar {
+    width: 5%;
+}
+
+.home-left {
+    width: 60%;
+  
+}
+
+.home-right {
+    width: 35%;
+}

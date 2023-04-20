@@ -1,0 +1,27 @@
+.left {
+    display: flex;
+}
+
+.leftText {
+    margin-left: 20px;
+    width: 50%;
+    margin-top: 10vh;
+}
+
+
+.span {
+    display: inline-block;
+    width: 100px;
+
+}
+
+
+.leftImage {
+    width: 50%;
+}
+
+
+.leftImage img {
+    height: 70vh;
+    width: 25vw;
+}

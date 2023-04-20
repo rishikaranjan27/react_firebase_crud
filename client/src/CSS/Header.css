@@ -1,0 +1,53 @@
+.header {
+    background-color: #001C7B;
+    display: flex;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.logo {
+    color: #008584;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.logo span {
+    color: #F80204;
+    font-size: large;
+    
+}
+
+
+.search {
+    width: 100%;  
+}
+
+
+.search-icon {
+    color: white;
+    margin: 0 80%;
+  
+}
+
+
+
+
+.green-btn {
+    background-color: #92D050;
+    color: black;
+    width: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.red-btn {
+    background-color: #FF0000;
+    color: white;
+    width: 50px;
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 10px;
+
+}
